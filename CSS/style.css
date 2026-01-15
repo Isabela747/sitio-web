@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color: rgb(173, 226, 226);
 }
 
 h1 {
@@ -15,7 +15,7 @@ p {
 }
 
 #encabezado {
-    background-color: aquamarine;
+    background-color: rgb(192, 245, 227);
     height: 60px;
     width: 100%;
     margin: 0 auto;
@@ -142,18 +142,18 @@ p {
     margin: 0 auto;
 }
 #informacion h1, h3{
-    color: white;
+    color: black;
     text-align: center;
     
 }
 #informacion p{
-    color: white;
+    color: black;
     text-align: justify;
     padding: 30px;
    
 }
 #informacion li{
-    color: white;
+    color: black;
 }
 #pie {
     background-color: gray;
