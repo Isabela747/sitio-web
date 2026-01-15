@@ -100,3 +100,81 @@ p {
 #encabezado .encabezado3 {
     color: blueviolet;
 }
+
+
+#conttargetas {
+    height: 450px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.targeta{
+    background-color: #ffffff;
+    width: 350px;
+    height: 400px ;
+    justify-content: center;
+    align-items: center;
+     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+}
+.targeta img{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10%;
+}
+.targeta h1{
+    text-align: center;
+    color: black;
+}
+.targeta p{
+    text-align: center;
+    color: gray;
+    padding: 10px;
+     font-size: 12px;
+}
+#informacion {
+    background-image: url("../IMAGES/fondo1.jpg");
+    background-position: center;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+}
+#informacion h1, h3{
+    color: white;
+    text-align: center;
+    
+}
+#informacion p{
+    color: white;
+    text-align: justify;
+    padding: 30px;
+   
+}
+#informacion li{
+    color: white;
+}
+#pie {
+    background-color: gray;
+    height: 70px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pieizq{
+    width: 50%;
+    text-align: left;
+    color: #fff;
+    padding: 20px;
+}
+.pieder{
+    width: 50%;
+    text-align: right;
+    color: #fff;
+    padding: 20px;
+}
+
