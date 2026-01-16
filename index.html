@@ -15,8 +15,8 @@
         <div class="menu">
             <ul>
                 <li><a href="#">Inicio</a></li>
-                <li><a href="#">Lesiones</a></li>
-                <li><a href="#">Autocuidado</a></li>
+                <li><a href="#" onclick="suma();">Lesiones</a></li>
+                <li><a href="#" onclick="sumaParam(12,30);">Autocuidado</a></li>
                 <li><a href="#">Deporte</a></li>
                 <li><a href="#">Mujer</a></li>
                 <li><a href="#">Bebé</a></li>
@@ -66,6 +66,11 @@
             <li>Aplica técnicas manuales, ejercicios y agentes físicos.</li>
             <li>Educa al paciente para el autocuidado y la prevención.</li>
         </ul>
+        Valor 1: <input type="number" name="val1" id="val1">
+        Valor 2: <input type="number" name="val2" id="val2">
+        <button onclick="sumarImput();">Calcular</button>
+        Mensaje: <input type="text" name="mensaje" id="mensaje">
+        
     </div>
     <div id="pie">
         <div class="pieizq">Todos los derechos reservados para FisioLEA</div>
